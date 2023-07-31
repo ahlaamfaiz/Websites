@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    
+    <div class="container">
+       <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="food.jpg"></div>
+      <div class="swiper-slide"><img src="food2.avif"></div>
+      <div class="swiper-slide"><img src="food3.jpg"></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+   
+  </div>
+        
+        <div class="card">
+            <h2>ABOUT RESTAURANT</h2>
+            <p>The restaurant was made in 1985, so it's been around for 38 years until now, 
+                which is 2023. People really like the food there, and it's a cozy place to eat. 
+                It has been a part of the community for a long time and is loved by both locals and visitors. 
+                As it celebrates its 38th year, the restaurant can be proud of all the yummy meals and good 
+                times it has given to people over the years.</p>
+        </div>
+        <div class="card">
+            <h2> ACHIEVMENT </h2>
+            <p> Over the years, the restaurant has achieved many great things. It has won several awards 
+                for its delicious food and excellent service. Many customers have given it positive reviews 
+                and ratings, praising the tasty dishes and friendly staff. The restaurant has also been 
+                featured in local newspapers and magazines, gaining recognition for its unique menu and 
+                welcoming atmosphere. Additionally, it has hosted special events and charity initiatives 
+                to give back to the community. These achievements have helped the restaurant build a strong 
+                reputation and loyal customer base, making it a successful and well-respected establishment.</p>
+        </div>
+        <div class="card">
+            <h2>OFFERS</h2>
+            <p>The restaurant has many great offers for its customers. They have daily specials with fresh
+                 ingredients and tasty dishes. If you're a regular customer, they have a loyalty program to 
+                 give you discounts and special deals. Happy hour brings discounts on drinks and appetizers 
+                 at certain times. On special occasions, they create unique menus and themed events. If you 
+                 have a party, they can cater to your needs. The restaurant wants everyone to enjoy their food 
+                 and have a great time!</p>
+        </div>
+        <div class="card">
+            <p id="p1">finally At Our Restaurant, we prioritize your health and safety. Our spotless dining
+                area, immaculate kitchen practices, and comprehensive pest control measures ensure a clean 
+                and hygienic environment for you to enjoy your delicious meal. Your satisfaction is our top 
+                priority, and we look forward to providing you with a memorable dining experience.<br> and 
+                also Experience a culinary adventure like no other at our restaurant. Delight in our chef's 
+                innovative dishes that blend tradition and creativity, served in a warm and inviting atmosphere.
+                 Immerse yourself in culture and enjoy exemplary service that ensures your visit is truly 
+                 exceptional. Join us for exclusive events and celebrate the art of food. Book your table
+                  now for an unforgettable dining experience!</p>
+        </div>
+        <br><br>
+    </div>
+    <!-- <script src="aboutus.js"></script> -->
+  <script>
+    const swiper = new Swiper('.swiper', {
+    // direction: 'vertical',
+    loop: true,
+  
+    pagination: {
+      el: '.swiper-pagination',
+      clickable:true,
+    },
+  
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+  });
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+</html>
